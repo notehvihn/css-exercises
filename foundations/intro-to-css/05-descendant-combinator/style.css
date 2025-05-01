@@ -1,0 +1,6 @@
+div p {
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    color: lab(53.23% 80.11 67.22);
+}
