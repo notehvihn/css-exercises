@@ -11,6 +11,9 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  display: flex;
+  padding: 8px;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
@@ -29,12 +32,17 @@ body {
   font-style: italic;
 }
 
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
 }
 
 a {
@@ -44,5 +52,9 @@ a {
 }
 
 ul {
+  gap: 16px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
